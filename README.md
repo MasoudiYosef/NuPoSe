@@ -5,7 +5,7 @@ NuPoSe is a deep-learning framework that predicts nucleosome positioning and ide
 </p>
 
 ![NuPoSe](https://github.com/MasoudiYosef/NuPoSe/assets/83264279/73dd3cd5-7a70-4d45-8b58-1047fb2c4296)
-<p align='center'>The framework of NuPoSe</p>
+<p align='center'>Figure 1: The framework of NuPoSe</p>
 
 <p align='justify'>
 In the first step (Figure 1a), high-coverage data of paired-end 147 bp length MNase-seq fragments from seven human lymphoblastoid cell lines (GSE36979) were aligned to the human reference genome (GRCh37). Subsequently, the alignment scores were smoothed, and the dyad positions were determined. The file named <i>DyadMNase.zip</i> contains all the necessary files and bash-format commands, which can be executed on the Ubuntu operating system. Using the determined dyad positions, two groups of DNAs were generated: the positive group representing 201-bases nucleosomal DNA and the negative group representing 201-bases non-nucleosomal DNA.
@@ -23,5 +23,5 @@ Here, 'PG' and 'NG' refer to two text files containing 201-base nucleosomal and 
 
 <p align='justify'>
 In the third step, the extracted features underwent a two-step feature selection process: (i) Calculating Pearson correlation coefficients between features to remove redundant ones and (ii) Generating 100 subsets of nucleosome positioning features based on a combination of the <i>Trader</i>i> optimization algorithm and the SVM classifier. The python-format file named <i>Trader.py</i>i> contains the source code for this feature selection process. Running the following command will initiate the feature selection process as described.<br><br>
-  python3 Trader.py<br><br>
+  <b>python3 Trader.py</b><br><br>
 </p>
