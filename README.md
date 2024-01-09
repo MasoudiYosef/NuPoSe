@@ -1,1 +1,1 @@
-# NuPoSe: Nucleosome positioning prediction based on DNA sequence
+# NuPoSe: Nucleosome positioning prediction
