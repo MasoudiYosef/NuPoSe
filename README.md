@@ -9,3 +9,5 @@ NuPoSe is a deep-learning framework that predicts nucleosome positioning and ide
 <p align='justify'>
 In the first step, high-coverage data of paired-end 147 bp length MNase-seq fragments from seven human lymphoblastoid cell lines (GSE36979) were aligned to the human reference genome (GRCh37). Subsequently, the alignment scores were smoothed, and the dyad positions were determined. The file named <i>DyadMNase.zip</i> contains all the necessary files and bash-format commands, which can be executed on the Ubuntu operating system. 
 </p>
+
+
