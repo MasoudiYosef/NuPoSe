@@ -14,7 +14,7 @@ In the first step (Figure 1a), high-coverage data of paired-end 147 bp length MN
 
 <p align='justify'>
 In the second step (Figure 1b), a total of 336 di-nucleotide, tri-nucleotide, and tetra-nucleotide sequence patterns were defined for each DNA strand in the positive and negative datasets. Subsequently, five groups of features were extracted for each sequence pattern. The python-format file named FeatureExtraction.py contains the source code for extracting these features. To execute this source code, the following commands were used:
-  <be><br>
+  <br><br>
 <b>python3 FeatureExtraction.py PG<br>
 python3 FeatureExtraction.py NG</b>
   <br><br>
