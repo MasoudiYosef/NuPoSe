@@ -20,3 +20,8 @@ python3 FeatureExtraction.py NG</b>
   <br><br>
 Here, 'PG' and 'NG' refer to two text files containing 201-base nucleosomal and non-nucleosomal DNAs, respectively. Running these source codes converts every 201-base DNA sequence into a set of over 32,000 features.
 </p>
+
+<p align='justify'>
+In the third step, the extracted features underwent a two-step feature selection process: (i) Calculating Pearson correlation coefficients between features to remove redundant ones and (ii) Generating 100 subsets of nucleosome positioning features based on a combination of the <i>Trader</i>i> optimization algorithm and the SVM classifier. The python-format file named <i>Trader.py</i>i> contains the source code for this feature selection process. Running the following command will initiate the feature selection process as described.<br><br>
+  python3 Trader.py<br><br>
+</p>
